@@ -1,0 +1,35 @@
+[ 
+     {    "id": 1, 
+   "name": "Basic Membership",  
+     "prices": 150,
+    "features": [
+      "Access to cardio equipment",
+      "Access to weight machines",
+      "Access to weight machines",
+      "Access to group classes"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Premium Membership",
+    "prices": 50,
+    "features": [
+    
+      "Access to all gym equipment",
+      "Access to personal trainer",
+      "Access to sauna and steam room"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Corporate Membership",
+    "prices": 100,
+    "features": [
+      "Access to gym during off-peak hours",
+      "Discounted personal training sessions",
+      "Discounted personal training sessions",
+      "Discounted personal training sessions",
+      "Complimentary fitness evaluation"
+    ]
+  }
+]
