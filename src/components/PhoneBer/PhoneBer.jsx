@@ -27,8 +27,10 @@ const PhoneBer = () => {
         })
     },[])
     return (
-        <div>
-           <BarChart 
+        <div  >
+           
+            <ResponsiveContainer  aspect={0.8}>
+            <BarChart 
            width={500}
            height={300}
             data={phones}
@@ -37,7 +39,9 @@ const PhoneBer = () => {
             <XAxis dataKey="name" />
             <YAxis />
           <Tooltip />
-            </BarChart> 
+            </BarChart>
+            </ResponsiveContainer>
+            
         </div>
     );
 };

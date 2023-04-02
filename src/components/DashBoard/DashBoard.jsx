@@ -89,10 +89,12 @@ const DashBoard = () => {
 
 ]
     return (
-        <div>
+        <div   >
+            <ResponsiveContainer width="95%" height={500} >
+
             <LineChart 
-            width={500}
             height={300}
+            width={500}
             data={marksArray}
             > <Line dataKey="physics" ></Line>
              <Line dataKey="chemistry" ></Line>
@@ -101,9 +103,14 @@ const DashBoard = () => {
              <YAxis />
              <Tooltip />
              </LineChart>
+            </ResponsiveContainer>
+            
+            
+            
 
         </div>
     );
 };
 
 export default DashBoard;
+// style={{width:'99%', height:'500'}}

@@ -41,7 +41,7 @@ const Nav = () => {
             
             
             </div>
-            <ul className={`md:flex md:static bg-purple-400 pl-8 py-2 absolute duration-500 ${open ? 'top-6' :'-top-36'}`}>
+            <ul className={`md:flex md:static bg-purple-400 pl-8 py-2 transition absolute duration-500 ${open ? 'top-6' :'-top-36'}`}>
                 {
                     routes.map(route => <Link
                          route = {route}
